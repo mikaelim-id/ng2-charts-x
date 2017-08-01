@@ -19,10 +19,8 @@
   ],
   "module": "index.ts",
   "author": "Alexander Müller <alex@wq.lc>",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/donothingloop/ng2-charts-x.git"
-  },
+  "license": "MIT",
+  "repository": "https://github.com/donothingloop/ng2-charts-x",
   "bugs": {
     "url": "https://github.com/donothingloop/ng2-charts-x/issues"
   },
