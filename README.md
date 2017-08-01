@@ -1,7 +1,7 @@
 # ng2-charts-x [![npm version](https://badge.fury.io/js/ng2-charts-x.svg)](http://badge.fury.io/js/ng2-charts-x) [![npm downloads](https://img.shields.io/npm/dm/ng2-charts-x.svg)](https://npmjs.org/ng2-charts-x)
 Beautiful charts for Angular2 based on Chart.js
 
-[![NPM](https://nodei.co/npm/ng2-charts.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/ng2-charts-x)
+[![NPM](https://nodei.co/npm/ng2-charts-x.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/ng2-charts-x)
 [![NPM](https://nodei.co/npm-dl/ng2-charts-x.png?height=3&months=9)](https://npmjs.org/ng2-charts-x)
 
 **This is a fork of ng2-charts from valor-software that fixes some bugs which were not addressed in the original for a long time.**
