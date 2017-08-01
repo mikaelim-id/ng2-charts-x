@@ -1,10 +1,37 @@
 {
   "name": "ng2-charts-x",
+  "version": "1.7.1",
+  
   "dependencies": {
     "chart.js": "*"
   },
   "peerDependencies": {
     "@angular/common": "*",
     "@angular/core": "*"
-  }
+  },
+  "description": "Charts for Angular2 based on Chart.js",
+  "keywords": [
+    "angular",
+    "chart.js",
+    "angular2",
+    "angularjs",
+    "charts"
+  ],
+  "module": "index.ts",
+  "author": "Alexander Müller <alex@wq.lc>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/donothingloop/ng2-charts-x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/donothingloop/ng2-charts-x/issues"
+  },
+  "homepage": "https://github.com/donothingloop/ng2-charts-x#readme",
+  "contributors": [
+    {
+      "name": "Alexander Müller",
+      "email": "alex@wq.lc",
+      "url": "https://github.com/donothingloop"
+    }
+  ]
 }
