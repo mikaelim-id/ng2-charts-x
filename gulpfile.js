@@ -19,8 +19,7 @@ const distFolder = path.join(rootFolder, 'dist');
 const rollupPlugins = [
   nodeResolve({
     jsnext: true,
-    main: true,
-    browser: true
+    main: true
   }),
   commonjs({
     namedExports: {
@@ -99,7 +98,9 @@ gulp.task('rollup:fesm', function() {
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#external
       external: [
         '@angular/core',
-        '@angular/common'
+        '@angular/common',
+        'chart.js',
+        'moment'
       ],
 
       // Format of generated bundle
@@ -136,7 +137,9 @@ gulp.task('rollup:umd', function() {
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#external
       external: [
         '@angular/core',
-        '@angular/common'
+        '@angular/common',
+        'chart.js',
+        'moment'
       ],
 
       // Format of generated bundle
@@ -155,7 +158,8 @@ gulp.task('rollup:umd', function() {
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals
       globals: {
         typescript: 'ts',
-        '@angular/core': '@angular/core'
+        '@angular/core': '@angular/core',
+        'chart.js': 'chart.js'
       },
 
       // Plugins for handling external dependencies

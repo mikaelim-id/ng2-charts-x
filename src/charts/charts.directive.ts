@@ -11,7 +11,8 @@ import {
   Directive
 } from '@angular/core';
 
-import * as Chart from 'chart.js';
+import Chart from 'chart.js';
+import moment from 'moment';
 
 @Directive({
   selector: 'canvas[baseChart]',
