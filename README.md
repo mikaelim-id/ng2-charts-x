@@ -85,4 +85,4 @@ Please follow this guidelines when reporting bugs and feature requests:
 
 ### License
 
-The MIT License (see the [LICENSE](https://github.com/valor-software/ng2-charts/blob/master/LICENSE) file for the full text)
+The MIT License (see the [LICENSE](https://github.com/donothingloop/ng2-charts-x/blob/master/LICENSE) file for the full text)
