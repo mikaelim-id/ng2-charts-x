@@ -1,5 +1,5 @@
 {
-  "name": "ng2-charts",
+  "name": "ng2-charts-x",
   "dependencies": {
     "chart.js": "*"
   },
