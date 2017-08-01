@@ -12,5 +12,5 @@ export * from './charts/charts.directive';
     BaseChartDirective
   ]
 })
-export class ChartModule {
+export class ChartsModule {
 }
