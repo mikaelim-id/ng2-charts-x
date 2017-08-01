@@ -26,13 +26,9 @@ Sample in below website uses ng2-charts@1.1.0
 npm install ng2-charts-x --save
 ```
 
-2. Install chart.js and moment
+This also installs chart.js and moment.
 
-```bash
-npm install chart.js moment --save
-```
-
-3. Add to your *app.module.ts*
+2. Add to your *app.module.ts*
 
 ```typescript
 import { ChartsModule } from 'ng2-charts-x';
@@ -43,7 +39,7 @@ imports: [
 ]
 ```
 
-4. Enjoy
+3. Enjoy
   
 ## API
 
