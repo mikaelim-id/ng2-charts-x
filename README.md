@@ -22,33 +22,23 @@ Sample in below website uses ng2-charts@1.1.0
 
 1. Install ***ng2-charts-x*** using npm
 
-  ```bash
-  npm install ng2-charts-x --save
-  ```
-2. Install and import **chart.js**
+```bash
+npm install ng2-charts-x --save
+```
+2. Add to your *app.module.ts*
 
-  ```bash
-  npm install chart.js --save
-  ```
-  
-  Add this to your **app.module.ts** file:
-  ```typescript
-  // initialize chart.js
-  import * as Chart from 'chart.js';
-  window['Chart'] = Chart;
-  ```
-  
-## API
-
-### Import
 ```typescript
-import { ChartsModule } from 'ng2-charts-x/ng2-charts';
+import { ChartsModule } from 'ng2-charts-x';
 
 // In your App's module:
 imports: [
    ChartsModule
 ]
 ```
+
+3. Enjoy
+  
+## API
 
 ### Chart types
 There are one directive for all chart types: `base-chart`, and there are 6 types of charts: , `line`, `bar`, `radar`, `pie`, `polarArea`, `doughnut`.
