@@ -1,76 +1,37 @@
 {
   "name": "ng2-charts-x",
-  "version": "2.0.1",
-  "scripts": {
-    "build": "gulp build",
-    "build:watch": "gulp",
-    "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n ng2-charts-x -d docs --hideGenerator",
-    "docs:serve": "npm run docs:build -- -s",
-    "docs:watch": "npm run docs:build -- -s -w",
-    "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand"
-  },
-  "jest": {
-    "preset": "jest-preset-angular",
-    "setupTestFrameworkScriptFile": "<rootDir>/src/jest.ts"
-  },
+  "version": "2.0.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/donothingloop/ng2-charts-x"
   },
+  "description": "Reactive, responsive, beautiful charts for Angular2 based on Chart.js",
   "author": {
     "name": "Alexander Müller",
     "email": "alex@wq.lc"
   },
-  "private": true,
   "keywords": [
-    "angular"
+    "angular",
+    "chart.js",
+    "angular2",
+    "angularjs",
+    "charts"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/donothingloop/ng2-charts-x/issues"
   },
-  "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@compodoc/compodoc": "^1.0.0-beta.10",
-    "@types/jest": "^19.2.4",
-    "@types/node": "~6.0.60",
-    "codelyzer": "~2.0.0",
-    "core-js": "^2.4.1",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-rollup": "^2.11.0",
-    "jest": "^20.0.3",
-    "jest-preset-angular": "^2.0.2",
-    "node-sass": "^4.5.2",
-    "node-sass-tilde-importer": "^1.0.0",
-    "node-watch": "^0.5.2",
-    "protractor": "~5.1.0",
-    "rollup": "^0.41.6",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "run-sequence": "^1.2.2",
+  "module": "ng2-charts-x.js",
+  "typings": "ng2-charts-x.d.ts",
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0 <6.0.0",
     "rxjs": "^5.1.0",
-    "ts-jest": "^20.0.7",
-    "ts-node": "~2.0.0",
-    "tslint": "~4.5.0",
-    "typescript": "~2.2.0",
-    "zone.js": "^0.8.4"
-  },
-  "engines": {
-    "node": ">=6.0.0"
+    "zone.js": "^0.8.4",
+    "chart.js": ">=2.6.0 <2.8.0",
+    "moment": "^2.18.1"
   },
   "dependencies": {
-    "chart.js": "^2.6.0",
-    "moment": "^2.18.1"
+    "chart.js": "^2.7.1",
+    "moment": "^2.20.1"
   }
 }
