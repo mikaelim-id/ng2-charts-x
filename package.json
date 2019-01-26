@@ -1,6 +1,6 @@
 {
   "name": "ng2-charts-x",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "repository": {
     "type": "git",
     "url": "https://github.com/donothingloop/ng2-charts-x"
@@ -31,7 +31,7 @@
     "moment": "^2.18.1"
   },
   "dependencies": {
-    "chart.js": "^2.7.1",
+    "chart.js": "https://github.com/mikaelim-id/chart.js.git",
     "moment": "^2.20.1"
   }
 }
