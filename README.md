@@ -6,6 +6,16 @@ Beautiful charts for Angular2 based on Chart.js
 
 **This is a fork of ng2-charts from valor-software that fixes some bugs which were not addressed in the original for a long time.**
 
+Update chart.js dependency to modified one
+
+Add - Shorten Ticks Label if Max Rotation is Zero
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mikaelim-id/Chart.js/master/image/before.png" width="350" title="hover text">
+	To
+  <img src="https://raw.githubusercontent.com/mikaelim-id/Chart.js/master/image/after.png" width="350">
+</p>
+
 # Usage & Demo
 
 Currently only the original demo that is using ng2-charts is available.
